@@ -46,6 +46,3 @@ for epoch in range(epochs):
       total = 0
 print("Finished Training!")
 torch.save(model.state_dict(), "lenet5_cifar10.pth")
-
-
-
